@@ -7,7 +7,7 @@ auth.set_access_token('1393293381250519045-MjfUmD8BX1up1o0RHStvBx5qlkOMuc','iEB9
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 user = api.me()
-#b = 'b*ceta dx '
+b = 'b*ceta dx '
 
 for tweet in api.home_timeline():
     try:
@@ -17,7 +17,7 @@ for tweet in api.home_timeline():
             while (len(pal) < 3 and pal != 'cu'):
                 pal = random.choice(lines)
             else:
-                frase = pal
+                frase = b + pal
 
         api.update_status(frase)
         print('Tweetou')
