@@ -21,7 +21,7 @@ for tweet in api.home_timeline():
 
         api.update_status(frase)
         print('Tweetou')
-        time.sleep(7200)
+        time.sleep(300)
 
     except tweepy.TweepError as e:
         print(e.reason)
