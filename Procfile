@@ -1,1 +1,1 @@
-worker: python3 -m SuperSexo-Bot.py
+worker: python3 -m supersexobot.py
